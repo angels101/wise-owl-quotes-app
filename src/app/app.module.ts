@@ -7,13 +7,15 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { QuoteComponent } from './quote/quote.component';
 import { ShowQuoteComponent } from './show-quote/show-quote.component';
 import { InquoteComponent } from './inquote/inquote.component';
+import { HighlightersDirective } from './highlighters.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
     QuoteComponent,
     ShowQuoteComponent,
-    InquoteComponent
+    InquoteComponent,
+    HighlightersDirective
   ],
   imports: [
     BrowserModule,
