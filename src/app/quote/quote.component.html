@@ -1,0 +1,20 @@
+<div class="overlay">
+    <div class="container">
+    <h1 appHighlighters>Wise Owl Quotes</h1>
+    <hr>
+    <div class="row">
+      <div class="col-md-12" appHighlighters>
+        <div *ngFor='let quote of quotes;let i=index' class="card" appHighlighters>
+          <div class="card-body">
+            <p class="card-text">{{quote.quoteAuthor}}</p>
+          </div>
+          <span class="card-subtitle mb-2">Posted by: <span id="name">{{quote.userName}}</span><span id="date"><span id="datecolor">{{quote.quoteDay|date}}</span></span></span>
+           <div>
+            <app-show-quote [quoted]='quote' (quotecomplete)='quoteDelete($event,i)'></app-show-quote>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-12">
+        <app-inquote (getForm)="addQuote($event)"></app-inquote>
+      </div>
+  </div>
