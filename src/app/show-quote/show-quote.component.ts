@@ -1,13 +1,13 @@
-import { Component, OnInit, Input } from '@angular/core';
-import {} from '../quote-constructor'
-import { from } from 'rxjs';
+import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
+import { QuoteConstructor } from '../quote-constructor'
+
 @Component({
   selector: 'app-show-quote',
   templateUrl: './show-quote.component.html',
   styleUrls: ['./show-quote.component.css']
 })
 export class ShowQuoteComponent implements OnInit {
-  
+
   @Input() quoted: QuoteConstructor;
   @Output() quotecomplete = new EventEmitter<boolean>();
   
