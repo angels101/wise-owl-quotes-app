@@ -1,0 +1,8 @@
+
+<p> Aurthor: {{quoted.userName}}Posted: {{quoted.quoteDay | date }} days ago.</p>
+        
+<img src="../assets/Emoticonshd.com-Emoji-Emoticon-Like-Liked-Support-Thumbs.ico" alt="Like-Image" id="like" (click) = 'like()' > {{quoted.like}}
+        
+<img src="../assets/Fatcow-Farm-Fresh-Thumb-down.ico" alt="Dislike-image" id="dislike" (click)= "dislike()"> {{quoted.dislike}}
+      
+<img src="../assets/Trash-icon.png" alt="delete-image" id="delete" (click)="deleteQuote(true)">
