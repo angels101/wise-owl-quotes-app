@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { QuoteComponent } from './quote/quote.component';
 import { ShowQuoteComponent } from './show-quote/show-quote.component';
-import { InquoteComponent } from './inquote/inquote.component';
+
 import { HighlightersDirective } from './highlighters.directive';
 import { DatePipe } from './date.pipe';
 
@@ -15,7 +15,7 @@ import { DatePipe } from './date.pipe';
     AppComponent,
     QuoteComponent,
     ShowQuoteComponent,
-    InquoteComponent,
+  
     HighlightersDirective,
     DatePipe
   ],

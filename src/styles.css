@@ -3,7 +3,7 @@
 
 
 body {
-    /* background-image: url('./assets/img/wise-owl.png'); */
+    background-image: url('./assets/img/wise-owl.png');
     background-repeat: no-repeat;
     background-position: inherit;
     background-color: rgb(97, 146, 161);
