@@ -6,7 +6,7 @@ import { Directive, ElementRef } from '@angular/core';
 export class HighlightersDirective {
 
   constructor(private el: ElementRef) {
-    el.nativeElement.style.background = "orange";
+    el.nativeElement.style.background = "pink";
   }
 
 
