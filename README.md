@@ -16,12 +16,14 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 
 ## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
+
+** Angular Live Development Server is listening on localhost:4200, open your browser on http://localhost:42
 ## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+<img src="../assets/img/output.png"> 
 
-## Further help
+## License
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+License:MIT(https://img.shields.io/badge/License-MIT-yellow.svg)]
+  ([https://opensource.org/license/MIT])
