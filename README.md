@@ -10,7 +10,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Development Specifications
 
-1. the owl platform has a form component that has input sections for the quote, the author, and the person who submitted the quote.
+1. The owl platform has a form component that has input sections for the quote, the author, and the person who submitted the quote.
 
 2. Each quote must begin with an initial upvote and downvote value of 0.
 
