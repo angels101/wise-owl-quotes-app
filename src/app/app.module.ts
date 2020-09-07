@@ -9,6 +9,8 @@ import { ShowQuoteComponent } from './show-quote/show-quote.component';
 
 import { HighlightersDirective } from './highlighters.directive';
 import { DatePipe } from './date.pipe';
+import { InquoteComponent } from './inquote/inquote.component';
+import { FormsModule } from '@angular/forms'
 
 @NgModule({
   declarations: [
@@ -17,12 +19,14 @@ import { DatePipe } from './date.pipe';
     ShowQuoteComponent,
   
     HighlightersDirective,
-    DatePipe
+    DatePipe,
+    InquoteComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

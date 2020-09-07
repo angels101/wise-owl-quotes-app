@@ -17,6 +17,6 @@ export class DatePipe implements PipeTransform {
     } else {
       return 0;
     }
-  } y
+  } 
 
 }

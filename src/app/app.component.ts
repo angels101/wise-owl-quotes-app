@@ -7,5 +7,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'wise-owl-quotes';
+  title = 'wise-owl-quotes~Platform';
 }
+
+

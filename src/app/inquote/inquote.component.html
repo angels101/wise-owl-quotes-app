@@ -1,0 +1,28 @@
+
+
+<form (ngSubmit)='onSubmit()' #quoteForm='ngForm'>
+    
+    <div class="form-group">
+
+        <div>
+            <label for="names">Enter your Name</label>
+            <input type="text" name="userName" id="userName" #userName='ngModel' [(ngModel)] = 'quoteArray.userName' >
+        </div>
+        
+        <label for="text">Enter your Quote</label>
+
+        <div>
+            <textarea name="quoteDescription" #quoteDescription='ngModel' id="quoteDescription" cols="30" rows="10" [(ngModel)] = 'quoteArray.quoteDescription'></textarea>
+        </div>
+        
+        <label for="quote-author">Enter Name of the Quote Aurthor</label>
+
+        <div>
+            <input type="text" name="quoteAuthor" #quoteAuthor='ngModel' id="quoteAuthor" [(ngModel)] = 'quoteArray.quoteAuthor'>
+        </div>
+        
+    </div>
+    <button type="submit" class="btn btn-success" >Add Quote</button>
+</form>
+
+
