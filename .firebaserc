@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "wise-owl-quotes-app": {
+      "hosting": {
+        "wise-owl-quotes": [
+          "wise-owl-quotes-app"
+        ]
+      }
+    }
+  }
+}

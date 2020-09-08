@@ -119,6 +119,10 @@
               "devServerTarget": "wise-owl-quotes:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {}
         }
       }
     }
